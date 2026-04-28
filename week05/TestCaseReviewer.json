@@ -3,6 +3,7 @@
     "edges": [
       {
         "animated": false,
+        "className": "",
         "data": {
           "sourceHandle": {
             "dataType": "File",
@@ -29,6 +30,8 @@
         "targetHandle": "{œfieldNameœ:œinputœ,œidœ:œPrompt Template-zWrjmœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       },
       {
+        "animated": false,
+        "className": "",
         "data": {
           "sourceHandle": {
             "dataType": "Prompt Template",
@@ -48,12 +51,15 @@
           }
         },
         "id": "xy-edge__Prompt Template-zWrjm{œdataTypeœ:œPrompt Templateœ,œidœ:œPrompt Template-zWrjmœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-GroqModel-lTprc{œfieldNameœ:œinput_valueœ,œidœ:œGroqModel-lTprcœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
         "source": "Prompt Template-zWrjm",
         "sourceHandle": "{œdataTypeœ:œPrompt Templateœ,œidœ:œPrompt Template-zWrjmœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
         "target": "GroqModel-lTprc",
         "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œGroqModel-lTprcœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       },
       {
+        "animated": false,
+        "className": "",
         "data": {
           "sourceHandle": {
             "dataType": "GroqModel",
@@ -73,6 +79,7 @@
           }
         },
         "id": "xy-edge__GroqModel-lTprc{œdataTypeœ:œGroqModelœ,œidœ:œGroqModel-lTprcœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-TextOutput-0yvCH{œfieldNameœ:œinput_valueœ,œidœ:œTextOutput-0yvCHœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
         "source": "GroqModel-lTprc",
         "sourceHandle": "{œdataTypeœ:œGroqModelœ,œidœ:œGroqModel-lTprcœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
         "target": "TextOutput-0yvCH",
@@ -111,6 +118,7 @@
             "is_input": null,
             "is_output": null,
             "legacy": false,
+            "lf_version": "1.9.0",
             "metadata": {
               "code_hash": "3d3fd7b8a36f",
               "dependencies": {
@@ -321,8 +329,9 @@
             "frozen": false,
             "icon": "file-text",
             "key": "File",
-            "last_updated": "2026-04-28T15:35:06.000Z",
+            "last_updated": "2026-04-28T15:43:13.885Z",
             "legacy": false,
+            "lf_version": "1.9.0",
             "metadata": {
               "code_hash": "c20646f04f8e",
               "dependencies": {
@@ -362,6 +371,23 @@
                 "options": null,
                 "required_inputs": null,
                 "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "File Path",
+                "group_outputs": false,
+                "hidden": null,
+                "loop_types": null,
+                "method": "load_files_path",
+                "name": "path",
+                "options": null,
+                "required_inputs": null,
                 "tool_mode": true,
                 "types": [
                   "Message"
@@ -810,7 +836,9 @@
                   "bz2",
                   "gz"
                 ],
-                "file_path": [],
+                "file_path": [
+                  "d0df8e0d-fe9b-4ad1-80de-92473ba94b6d/InputTestcases.pdf"
+                ],
                 "info": "Supported file extensions: csv, json, pdf, txt, md, mdx, yaml, yml, xml, html, htm, docx, py, sh, sql, js, ts, tsx, adoc, asciidoc, asc, bmp, dotx, dotm, docm, jpg, jpeg, png, potx, ppsx, pptm, potm, ppsm, pptx, tiff, xls, xlsx, xhtml, webp; optionally bundled in file extensions: zip, tar, tgz, bz2, gz",
                 "list": true,
                 "list_add_label": "Add More",
@@ -1002,13 +1030,14 @@
             },
             "tool_mode": false
           },
+          "selected_output": "message",
           "showNode": true,
           "type": "File"
         },
         "dragging": false,
         "id": "File-XoRxJ",
         "measured": {
-          "height": 275,
+          "height": 279,
           "width": 320
         },
         "position": {
@@ -1047,8 +1076,9 @@
             ],
             "frozen": false,
             "icon": "Groq",
-            "last_updated": "2026-04-28T15:35:44.463Z",
+            "last_updated": "2026-04-28T15:43:00.454Z",
             "legacy": false,
+            "lf_version": "1.9.0",
             "metadata": {
               "code_hash": "8a55d3fa8173",
               "dependencies": {
@@ -1427,6 +1457,7 @@
             "frozen": false,
             "icon": "type",
             "legacy": false,
+            "lf_version": "1.9.0",
             "metadata": {
               "code_hash": "6aba888f4632",
               "dependencies": {
@@ -1528,9 +1559,9 @@
       }
     ],
     "viewport": {
-      "x": 65.21476715214214,
-      "y": 24.51729196644419,
-      "zoom": 0.8874043770219124
+      "x": -1.7901478977198622,
+      "y": 245.78116373169365,
+      "zoom": 0.8782381940729352
     }
   },
   "description": "Your Passport to Linguistic Landscapes.",
