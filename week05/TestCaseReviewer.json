@@ -3,67 +3,10 @@
     "edges": [
       {
         "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "Prompt Template",
-            "id": "Prompt Template-uzdr1",
-            "name": "prompt",
-            "output_types": [
-              "Message"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "input_value",
-            "id": "GroqModel-PiNcd",
-            "inputTypes": [
-              "Message"
-            ],
-            "type": "str"
-          }
-        },
-        "id": "reactflow__edge-Prompt Template-uzdr1{œdataTypeœ:œPrompt Templateœ,œidœ:œPrompt Template-uzdr1œ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-GroqModel-PiNcd{œfieldNameœ:œinput_valueœ,œidœ:œGroqModel-PiNcdœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "selected": false,
-        "source": "Prompt Template-uzdr1",
-        "sourceHandle": "{œdataTypeœ:œPrompt Templateœ,œidœ:œPrompt Template-uzdr1œ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "GroqModel-PiNcd",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œGroqModel-PiNcdœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "GroqModel",
-            "id": "GroqModel-PiNcd",
-            "name": "text_output",
-            "output_types": [
-              "Message"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "input_value",
-            "id": "TextOutput-i94aD",
-            "inputTypes": [
-              "Message"
-            ],
-            "type": "str"
-          }
-        },
-        "id": "reactflow__edge-GroqModel-PiNcd{œdataTypeœ:œGroqModelœ,œidœ:œGroqModel-PiNcdœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-TextOutput-i94aD{œfieldNameœ:œinput_valueœ,œidœ:œTextOutput-i94aDœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "selected": false,
-        "source": "GroqModel-PiNcd",
-        "sourceHandle": "{œdataTypeœ:œGroqModelœ,œidœ:œGroqModel-PiNcdœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "TextOutput-i94aD",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œTextOutput-i94aDœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
         "data": {
           "sourceHandle": {
             "dataType": "File",
-            "id": "File-sHA8B",
+            "id": "File-XoRxJ",
             "name": "message",
             "output_types": [
               "Message"
@@ -71,32 +14,277 @@
           },
           "targetHandle": {
             "fieldName": "input",
-            "id": "Prompt Template-uzdr1",
+            "id": "Prompt Template-zWrjm",
             "inputTypes": [
               "Message"
             ],
             "type": "str"
           }
         },
-        "id": "reactflow__edge-File-sHA8B{œdataTypeœ:œFileœ,œidœ:œFile-sHA8Bœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Prompt Template-uzdr1{œfieldNameœ:œinputœ,œidœ:œPrompt Template-uzdr1œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "xy-edge__File-XoRxJ{œdataTypeœ:œFileœ,œidœ:œFile-XoRxJœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Prompt Template-zWrjm{œfieldNameœ:œinputœ,œidœ:œPrompt Template-zWrjmœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
-        "source": "File-sHA8B",
-        "sourceHandle": "{œdataTypeœ:œFileœ,œidœ:œFile-sHA8Bœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "Prompt Template-uzdr1",
-        "targetHandle": "{œfieldNameœ:œinputœ,œidœ:œPrompt Template-uzdr1œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "source": "File-XoRxJ",
+        "sourceHandle": "{œdataTypeœ:œFileœ,œidœ:œFile-XoRxJœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Prompt Template-zWrjm",
+        "targetHandle": "{œfieldNameœ:œinputœ,œidœ:œPrompt Template-zWrjmœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "data": {
+          "sourceHandle": {
+            "dataType": "Prompt Template",
+            "id": "Prompt Template-zWrjm",
+            "name": "prompt",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "GroqModel-lTprc",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__Prompt Template-zWrjm{œdataTypeœ:œPrompt Templateœ,œidœ:œPrompt Template-zWrjmœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-GroqModel-lTprc{œfieldNameœ:œinput_valueœ,œidœ:œGroqModel-lTprcœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "source": "Prompt Template-zWrjm",
+        "sourceHandle": "{œdataTypeœ:œPrompt Templateœ,œidœ:œPrompt Template-zWrjmœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "GroqModel-lTprc",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œGroqModel-lTprcœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "data": {
+          "sourceHandle": {
+            "dataType": "GroqModel",
+            "id": "GroqModel-lTprc",
+            "name": "text_output",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "TextOutput-0yvCH",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__GroqModel-lTprc{œdataTypeœ:œGroqModelœ,œidœ:œGroqModel-lTprcœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-TextOutput-0yvCH{œfieldNameœ:œinput_valueœ,œidœ:œTextOutput-0yvCHœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "source": "GroqModel-lTprc",
+        "sourceHandle": "{œdataTypeœ:œGroqModelœ,œidœ:œGroqModel-lTprcœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "TextOutput-0yvCH",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œTextOutput-0yvCHœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       }
     ],
     "nodes": [
       {
         "data": {
-          "description": "Loads and returns the content from uploaded files.",
-          "display_name": "Read File",
-          "id": "File-sHA8B",
+          "id": "Prompt Template-zWrjm",
           "node": {
             "base_classes": [
               "Message"
             ],
             "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {
+              "template": [
+                "input"
+              ]
+            },
+            "description": "Create a prompt template with dynamic variables.",
+            "display_name": "Prompt Template",
+            "documentation": "https://docs.langflow.org/components-prompts",
+            "edited": false,
+            "error": null,
+            "field_order": [
+              "template",
+              "use_double_brackets",
+              "tool_placeholder"
+            ],
+            "frozen": false,
+            "full_path": null,
+            "icon": "prompts",
+            "is_composition": null,
+            "is_input": null,
+            "is_output": null,
+            "legacy": false,
+            "metadata": {
+              "code_hash": "3d3fd7b8a36f",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "lfx",
+                    "version": null
+                  }
+                ],
+                "total_dependencies": 1
+              },
+              "module": "lfx.components.models_and_agents.prompt.PromptComponent"
+            },
+            "minimized": false,
+            "name": "",
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Prompt",
+                "group_outputs": false,
+                "hidden": null,
+                "loop_types": null,
+                "method": "build_prompt",
+                "name": "prompt",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "priority": null,
+            "replacement": null,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from typing import Any\n\nfrom lfx.base.prompts.api_utils import process_prompt_template\nfrom lfx.custom.custom_component.component import Component\nfrom lfx.inputs.input_mixin import FieldTypes\nfrom lfx.inputs.inputs import DefaultPromptField\nfrom lfx.io import BoolInput, MessageTextInput, Output, PromptInput\nfrom lfx.log.logger import logger\nfrom lfx.schema.dotdict import dotdict\nfrom lfx.schema.message import Message\nfrom lfx.template.utils import update_template_values\nfrom lfx.utils.mustache_security import validate_mustache_template\n\n\nclass PromptComponent(Component):\n    display_name: str = \"Prompt Template\"\n    description: str = \"Create a prompt template with dynamic variables.\"\n    documentation: str = \"https://docs.langflow.org/components-prompts\"\n    icon = \"prompts\"\n    trace_type = \"prompt\"\n    name = \"Prompt Template\"\n\n    inputs = [\n        PromptInput(name=\"template\", display_name=\"Template\"),\n        BoolInput(\n            name=\"use_double_brackets\",\n            display_name=\"Use Double Brackets\",\n            value=False,\n            advanced=True,\n            info=\"Use {{variable}} syntax instead of {variable}.\",\n            real_time_refresh=True,\n        ),\n        MessageTextInput(\n            name=\"tool_placeholder\",\n            display_name=\"Tool Placeholder\",\n            tool_mode=True,\n            advanced=True,\n            show=False,\n            info=\"A placeholder input for tool mode.\",\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Prompt\", name=\"prompt\", method=\"build_prompt\"),\n    ]\n\n    def update_build_config(self, build_config: dotdict, field_value: Any, field_name: str | None = None) -> dotdict:\n        \"\"\"Update the template field type based on the selected mode.\"\"\"\n        if field_name == \"use_double_brackets\":\n            # Change the template field type based on mode\n            is_mustache = field_value is True\n            if is_mustache:\n                build_config[\"template\"][\"type\"] = FieldTypes.MUSTACHE_PROMPT.value\n            else:\n                build_config[\"template\"][\"type\"] = FieldTypes.PROMPT.value\n\n            # Re-process the template to update variables when mode changes\n            template_value = build_config.get(\"template\", {}).get(\"value\", \"\")\n            if template_value:\n                # Ensure custom_fields is properly initialized\n                if \"custom_fields\" not in build_config:\n                    build_config[\"custom_fields\"] = {}\n\n                # Clean up fields from the OLD mode before processing with NEW mode\n                # This ensures we don't keep fields with wrong syntax even if validation fails\n                old_custom_fields = build_config[\"custom_fields\"].get(\"template\", [])\n                for old_field in list(old_custom_fields):\n                    # Remove the field from custom_fields and template\n                    if old_field in old_custom_fields:\n                        old_custom_fields.remove(old_field)\n                    build_config.pop(old_field, None)\n\n                # Try to process template with new mode to add new variables\n                # If validation fails, at least we cleaned up old fields\n                try:\n                    # Validate mustache templates for security\n                    if is_mustache:\n                        validate_mustache_template(template_value)\n\n                    # Re-process template with new mode to add new variables\n                    _ = process_prompt_template(\n                        template=template_value,\n                        name=\"template\",\n                        custom_fields=build_config[\"custom_fields\"],\n                        frontend_node_template=build_config,\n                        is_mustache=is_mustache,\n                    )\n                except ValueError as e:\n                    # If validation fails, we still updated the mode and cleaned old fields\n                    # User will see error when they try to save\n                    logger.debug(f\"Template validation failed during mode switch: {e}\")\n        return build_config\n\n    async def build_prompt(self) -> Message:\n        use_double_brackets = self.use_double_brackets if hasattr(self, \"use_double_brackets\") else False\n        template_format = \"mustache\" if use_double_brackets else \"f-string\"\n        prompt = await Message.from_template_and_variables(template_format=template_format, **self._attributes)\n        self.status = prompt.text\n        return prompt\n\n    def _update_template(self, frontend_node: dict):\n        prompt_template = frontend_node[\"template\"][\"template\"][\"value\"]\n        use_double_brackets = frontend_node[\"template\"].get(\"use_double_brackets\", {}).get(\"value\", False)\n        is_mustache = use_double_brackets is True\n\n        try:\n            # Validate mustache templates for security\n            if is_mustache:\n                validate_mustache_template(prompt_template)\n\n            custom_fields = frontend_node[\"custom_fields\"]\n            frontend_node_template = frontend_node[\"template\"]\n            _ = process_prompt_template(\n                template=prompt_template,\n                name=\"template\",\n                custom_fields=custom_fields,\n                frontend_node_template=frontend_node_template,\n                is_mustache=is_mustache,\n            )\n        except ValueError as e:\n            # If validation fails, don't add variables but allow component to be created\n            logger.debug(f\"Template validation failed in _update_template: {e}\")\n        return frontend_node\n\n    async def update_frontend_node(self, new_frontend_node: dict, current_frontend_node: dict):\n        \"\"\"This function is called after the code validation is done.\"\"\"\n        frontend_node = await super().update_frontend_node(new_frontend_node, current_frontend_node)\n        template = frontend_node[\"template\"][\"template\"][\"value\"]\n        use_double_brackets = frontend_node[\"template\"].get(\"use_double_brackets\", {}).get(\"value\", False)\n        is_mustache = use_double_brackets is True\n\n        try:\n            # Validate mustache templates for security\n            if is_mustache:\n                validate_mustache_template(template)\n\n            # Kept it duplicated for backwards compatibility\n            _ = process_prompt_template(\n                template=template,\n                name=\"template\",\n                custom_fields=frontend_node[\"custom_fields\"],\n                frontend_node_template=frontend_node[\"template\"],\n                is_mustache=is_mustache,\n            )\n        except ValueError as e:\n            # If validation fails, don't add variables but allow component to be updated\n            logger.debug(f\"Template validation failed in update_frontend_node: {e}\")\n        # Now that template is updated, we need to grab any values that were set in the current_frontend_node\n        # and update the frontend_node with those values\n        update_template_values(new_template=frontend_node, previous_template=current_frontend_node[\"template\"])\n        return frontend_node\n\n    def _get_fallback_input(self, **kwargs):\n        return DefaultPromptField(**kwargs)\n"
+              },
+              "input": {
+                "advanced": false,
+                "display_name": "input",
+                "dynamic": false,
+                "field_type": "str",
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "input",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": ""
+              },
+              "template": {
+                "_input_type": "PromptInput",
+                "advanced": false,
+                "display_name": "Template",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "template",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "track_in_telemetry": false,
+                "type": "prompt",
+                "value": "Test case review agent\n\nI - Instruction\n\nYou are a test case reviewer.\n\nYour task is to take an input test case from the chat window and review it thoroughly. Keep the following in mind when reviewing the test case:\n- test coverage and completeness - are all possible tests covered?\n- clarity - are the tests easy to understand and execute?\n- relevant - do the tests cover relevant steps and are sequential in order?\n- Completeness - are both positive and negative scenarios covered?\n\nCritical Rules (Non-negotiable):\n1. Do NOT provide explanations, summaries, opinions, or examples.\n2. Prepare a list of issues found with test cases and clearly suggest improvements\n3. If no issues are found in the test cases, then respond with an OK/Looks Good message\n4. Do NOT make any assumptions \n5. Do NOT change the scope of tests\n\nC - Context\n\nYou are an AI Assistant with deep expertise in Banking, Insurance, and Financial Systems, including:\n- Payments, Cards, UPI, Net Banking\n- Core Banking, Loans, Accounts\n- Insurance Policies, Claims, Premiums\n- Regulatory, Compliance, and Risk Controls\n\nIf the input is outside these domains or not related to functional testing, treat it as out of scope.\n\nE – Example (Reference Format Only)\n\nSample input: \n\nTitle: Verify fund transfer within daily limit\nPreconditions: User is logged in with an active account\nSteps:\n1. Navigate to Fund Transfer\n2. Enter beneficiary details\n3. Enter amount within daily limit\n4. Submit transaction\nResult: Transaction completes successfully and confirmation is shown\n\nExpected Result: \nFrom the above, \n1. specify the test case ID\n2. also, in the title, add whether the test is positive or negative\n3. For step 3, specify whether beneficiary details are valid or invalid\n\nO – Output Rules\n\nONLY when the input is a valid test-case request, generate review for only 5 test cases. If more are input, ignore the other test cases.\n\nThe review must be a maximum of 4 lines with the first line stating whether the test case \"looks good\" or \"needs improvement\".\nEnsure no additional or unnecessary text is added\n\nT – Tone\n\nProfessional\nStructured\nPrecise\nEnterprise QA–standard\nNeutral and objective\n\n\n{input}\n\n"
+              },
+              "tool_placeholder": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Tool Placeholder",
+                "dynamic": false,
+                "info": "A placeholder input for tool mode.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "tool_placeholder",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": false,
+                "title_case": false,
+                "tool_mode": true,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "use_double_brackets": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Use Double Brackets",
+                "dynamic": false,
+                "info": "Use {{variable}} syntax instead of {variable}.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "use_double_brackets",
+                "override_skip": false,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": false
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "Prompt Template"
+        },
+        "id": "Prompt Template-zWrjm",
+        "measured": {
+          "height": 347,
+          "width": 320
+        },
+        "position": {
+          "x": 445,
+          "y": 311
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "File-XoRxJ",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "category": "files_and_knowledge",
             "conditional_paths": [],
             "custom_fields": {},
             "description": "Loads and returns the content from uploaded files.",
@@ -132,20 +320,20 @@
             ],
             "frozen": false,
             "icon": "file-text",
-            "last_updated": "2026-04-26T06:37:05.588Z",
+            "key": "File",
+            "last_updated": "2026-04-28T15:35:06.000Z",
             "legacy": false,
-            "lf_version": "1.9.0",
             "metadata": {
               "code_hash": "c20646f04f8e",
               "dependencies": {
                 "dependencies": [
                   {
                     "name": "lfx",
-                    "version": "0.4.1"
+                    "version": null
                   },
                   {
                     "name": "langchain_core",
-                    "version": "1.3.2"
+                    "version": "1.3.1"
                   },
                   {
                     "name": "pydantic",
@@ -158,7 +346,7 @@
                 ],
                 "total_dependencies": 4
               },
-              "module": "custom_components.read_file"
+              "module": "lfx.components.files_and_knowledge.file.FileComponent"
             },
             "minimized": false,
             "output_types": [],
@@ -179,30 +367,13 @@
                   "Message"
                 ],
                 "value": "__UNDEFINED__"
-              },
-              {
-                "allows_loop": false,
-                "cache": true,
-                "display_name": "File Path",
-                "group_outputs": false,
-                "hidden": null,
-                "loop_types": null,
-                "method": "load_files_path",
-                "name": "path",
-                "options": null,
-                "required_inputs": null,
-                "selected": "Message",
-                "tool_mode": true,
-                "types": [
-                  "Message"
-                ],
-                "value": "__UNDEFINED__"
               }
             ],
             "pinned": false,
+            "score": 0.007568328950209746,
             "template": {
               "_frontend_node_flow_id": {
-                "value": "2a90e634-d049-4b65-8426-564c94c297ab"
+                "value": "611deba4-bd95-4fab-a2a7-9d6ee3c4fd22"
               },
               "_frontend_node_folder_id": {
                 "value": "2d3365a5-05b7-4bff-9a86-b02fa6ed257f"
@@ -639,13 +810,10 @@
                   "bz2",
                   "gz"
                 ],
-                "file_path": [
-                  "d0df8e0d-fe9b-4ad1-80de-92473ba94b6d/invoiceData.pdf"
-                ],
+                "file_path": [],
                 "info": "Supported file extensions: csv, json, pdf, txt, md, mdx, yaml, yml, xml, html, htm, docx, py, sh, sql, js, ts, tsx, adoc, asciidoc, asc, bmp, dotx, dotm, docm, jpg, jpeg, png, potx, ppsx, pptm, potm, ppsm, pptx, tiff, xls, xlsx, xhtml, webp; optionally bundled in file extensions: zip, tar, tgz, bz2, gz",
                 "list": true,
                 "list_add_label": "Add More",
-                "load_from_db": false,
                 "name": "path",
                 "override_skip": false,
                 "placeholder": "",
@@ -776,7 +944,6 @@
                 "dynamic": false,
                 "info": "Choose where to read the file from.",
                 "limit": 1,
-                "load_from_db": false,
                 "name": "storage_location",
                 "options": [
                   {
@@ -835,226 +1002,25 @@
             },
             "tool_mode": false
           },
-          "selected_output": "message",
           "showNode": true,
           "type": "File"
         },
         "dragging": false,
-        "id": "File-sHA8B",
+        "id": "File-XoRxJ",
         "measured": {
-          "height": 279,
+          "height": 275,
           "width": 320
         },
         "position": {
-          "x": 56,
-          "y": 114
+          "x": 51,
+          "y": 307
         },
         "selected": false,
         "type": "genericNode"
       },
       {
         "data": {
-          "description": "Create a prompt template with dynamic variables.",
-          "display_name": "Prompt Template",
-          "id": "Prompt Template-uzdr1",
-          "node": {
-            "base_classes": [
-              "Message"
-            ],
-            "beta": false,
-            "conditional_paths": [],
-            "custom_fields": {
-              "template": [
-                "input"
-              ]
-            },
-            "description": "Create a prompt template with dynamic variables.",
-            "display_name": "Prompt Template",
-            "documentation": "https://docs.langflow.org/components-prompts",
-            "edited": false,
-            "error": null,
-            "field_order": [
-              "template",
-              "use_double_brackets",
-              "tool_placeholder"
-            ],
-            "frozen": false,
-            "full_path": null,
-            "icon": "prompts",
-            "is_composition": null,
-            "is_input": null,
-            "is_output": null,
-            "legacy": false,
-            "lf_version": "1.9.0",
-            "metadata": {
-              "code_hash": "3d3fd7b8a36f",
-              "dependencies": {
-                "dependencies": [
-                  {
-                    "name": "lfx",
-                    "version": "0.4.1"
-                  }
-                ],
-                "total_dependencies": 1
-              },
-              "module": "custom_components.prompt_template"
-            },
-            "minimized": false,
-            "name": "",
-            "output_types": [],
-            "outputs": [
-              {
-                "allows_loop": false,
-                "cache": true,
-                "display_name": "Prompt",
-                "group_outputs": false,
-                "hidden": null,
-                "loop_types": null,
-                "method": "build_prompt",
-                "name": "prompt",
-                "options": null,
-                "required_inputs": null,
-                "selected": "Message",
-                "tool_mode": true,
-                "types": [
-                  "Message"
-                ],
-                "value": "__UNDEFINED__"
-              }
-            ],
-            "pinned": false,
-            "priority": null,
-            "replacement": null,
-            "template": {
-              "_type": "Component",
-              "code": {
-                "advanced": true,
-                "dynamic": true,
-                "fileTypes": [],
-                "file_path": "",
-                "info": "",
-                "list": false,
-                "load_from_db": false,
-                "multiline": true,
-                "name": "code",
-                "password": false,
-                "placeholder": "",
-                "required": true,
-                "show": true,
-                "title_case": false,
-                "type": "code",
-                "value": "from typing import Any\n\nfrom lfx.base.prompts.api_utils import process_prompt_template\nfrom lfx.custom.custom_component.component import Component\nfrom lfx.inputs.input_mixin import FieldTypes\nfrom lfx.inputs.inputs import DefaultPromptField\nfrom lfx.io import BoolInput, MessageTextInput, Output, PromptInput\nfrom lfx.log.logger import logger\nfrom lfx.schema.dotdict import dotdict\nfrom lfx.schema.message import Message\nfrom lfx.template.utils import update_template_values\nfrom lfx.utils.mustache_security import validate_mustache_template\n\n\nclass PromptComponent(Component):\n    display_name: str = \"Prompt Template\"\n    description: str = \"Create a prompt template with dynamic variables.\"\n    documentation: str = \"https://docs.langflow.org/components-prompts\"\n    icon = \"prompts\"\n    trace_type = \"prompt\"\n    name = \"Prompt Template\"\n\n    inputs = [\n        PromptInput(name=\"template\", display_name=\"Template\"),\n        BoolInput(\n            name=\"use_double_brackets\",\n            display_name=\"Use Double Brackets\",\n            value=False,\n            advanced=True,\n            info=\"Use {{variable}} syntax instead of {variable}.\",\n            real_time_refresh=True,\n        ),\n        MessageTextInput(\n            name=\"tool_placeholder\",\n            display_name=\"Tool Placeholder\",\n            tool_mode=True,\n            advanced=True,\n            show=False,\n            info=\"A placeholder input for tool mode.\",\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Prompt\", name=\"prompt\", method=\"build_prompt\"),\n    ]\n\n    def update_build_config(self, build_config: dotdict, field_value: Any, field_name: str | None = None) -> dotdict:\n        \"\"\"Update the template field type based on the selected mode.\"\"\"\n        if field_name == \"use_double_brackets\":\n            # Change the template field type based on mode\n            is_mustache = field_value is True\n            if is_mustache:\n                build_config[\"template\"][\"type\"] = FieldTypes.MUSTACHE_PROMPT.value\n            else:\n                build_config[\"template\"][\"type\"] = FieldTypes.PROMPT.value\n\n            # Re-process the template to update variables when mode changes\n            template_value = build_config.get(\"template\", {}).get(\"value\", \"\")\n            if template_value:\n                # Ensure custom_fields is properly initialized\n                if \"custom_fields\" not in build_config:\n                    build_config[\"custom_fields\"] = {}\n\n                # Clean up fields from the OLD mode before processing with NEW mode\n                # This ensures we don't keep fields with wrong syntax even if validation fails\n                old_custom_fields = build_config[\"custom_fields\"].get(\"template\", [])\n                for old_field in list(old_custom_fields):\n                    # Remove the field from custom_fields and template\n                    if old_field in old_custom_fields:\n                        old_custom_fields.remove(old_field)\n                    build_config.pop(old_field, None)\n\n                # Try to process template with new mode to add new variables\n                # If validation fails, at least we cleaned up old fields\n                try:\n                    # Validate mustache templates for security\n                    if is_mustache:\n                        validate_mustache_template(template_value)\n\n                    # Re-process template with new mode to add new variables\n                    _ = process_prompt_template(\n                        template=template_value,\n                        name=\"template\",\n                        custom_fields=build_config[\"custom_fields\"],\n                        frontend_node_template=build_config,\n                        is_mustache=is_mustache,\n                    )\n                except ValueError as e:\n                    # If validation fails, we still updated the mode and cleaned old fields\n                    # User will see error when they try to save\n                    logger.debug(f\"Template validation failed during mode switch: {e}\")\n        return build_config\n\n    async def build_prompt(self) -> Message:\n        use_double_brackets = self.use_double_brackets if hasattr(self, \"use_double_brackets\") else False\n        template_format = \"mustache\" if use_double_brackets else \"f-string\"\n        prompt = await Message.from_template_and_variables(template_format=template_format, **self._attributes)\n        self.status = prompt.text\n        return prompt\n\n    def _update_template(self, frontend_node: dict):\n        prompt_template = frontend_node[\"template\"][\"template\"][\"value\"]\n        use_double_brackets = frontend_node[\"template\"].get(\"use_double_brackets\", {}).get(\"value\", False)\n        is_mustache = use_double_brackets is True\n\n        try:\n            # Validate mustache templates for security\n            if is_mustache:\n                validate_mustache_template(prompt_template)\n\n            custom_fields = frontend_node[\"custom_fields\"]\n            frontend_node_template = frontend_node[\"template\"]\n            _ = process_prompt_template(\n                template=prompt_template,\n                name=\"template\",\n                custom_fields=custom_fields,\n                frontend_node_template=frontend_node_template,\n                is_mustache=is_mustache,\n            )\n        except ValueError as e:\n            # If validation fails, don't add variables but allow component to be created\n            logger.debug(f\"Template validation failed in _update_template: {e}\")\n        return frontend_node\n\n    async def update_frontend_node(self, new_frontend_node: dict, current_frontend_node: dict):\n        \"\"\"This function is called after the code validation is done.\"\"\"\n        frontend_node = await super().update_frontend_node(new_frontend_node, current_frontend_node)\n        template = frontend_node[\"template\"][\"template\"][\"value\"]\n        use_double_brackets = frontend_node[\"template\"].get(\"use_double_brackets\", {}).get(\"value\", False)\n        is_mustache = use_double_brackets is True\n\n        try:\n            # Validate mustache templates for security\n            if is_mustache:\n                validate_mustache_template(template)\n\n            # Kept it duplicated for backwards compatibility\n            _ = process_prompt_template(\n                template=template,\n                name=\"template\",\n                custom_fields=frontend_node[\"custom_fields\"],\n                frontend_node_template=frontend_node[\"template\"],\n                is_mustache=is_mustache,\n            )\n        except ValueError as e:\n            # If validation fails, don't add variables but allow component to be updated\n            logger.debug(f\"Template validation failed in update_frontend_node: {e}\")\n        # Now that template is updated, we need to grab any values that were set in the current_frontend_node\n        # and update the frontend_node with those values\n        update_template_values(new_template=frontend_node, previous_template=current_frontend_node[\"template\"])\n        return frontend_node\n\n    def _get_fallback_input(self, **kwargs):\n        return DefaultPromptField(**kwargs)\n"
-              },
-              "input": {
-                "advanced": false,
-                "display_name": "input",
-                "dynamic": false,
-                "field_type": "str",
-                "fileTypes": [],
-                "file_path": "",
-                "info": "",
-                "input_types": [
-                  "Message"
-                ],
-                "list": false,
-                "load_from_db": false,
-                "multiline": true,
-                "name": "input",
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "type": "str",
-                "value": ""
-              },
-              "template": {
-                "_input_type": "PromptInput",
-                "advanced": false,
-                "display_name": "Template",
-                "dynamic": false,
-                "info": "",
-                "list": false,
-                "list_add_label": "Add More",
-                "load_from_db": false,
-                "name": "template",
-                "override_skip": false,
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_input": true,
-                "track_in_telemetry": false,
-                "type": "prompt",
-                "value": "Answer user's questions based on the document below:\n\n---\n\n{input}\n\nExtract  only Issue Date output in DD/MMM/YYYY format and display as\nIssue Date is :"
-              },
-              "tool_placeholder": {
-                "_input_type": "MessageTextInput",
-                "advanced": true,
-                "display_name": "Tool Placeholder",
-                "dynamic": false,
-                "info": "A placeholder input for tool mode.",
-                "input_types": [
-                  "Message"
-                ],
-                "list": false,
-                "list_add_label": "Add More",
-                "load_from_db": false,
-                "name": "tool_placeholder",
-                "override_skip": false,
-                "placeholder": "",
-                "required": false,
-                "show": false,
-                "title_case": false,
-                "tool_mode": true,
-                "trace_as_input": true,
-                "trace_as_metadata": true,
-                "track_in_telemetry": false,
-                "type": "str",
-                "value": ""
-              },
-              "use_double_brackets": {
-                "_input_type": "BoolInput",
-                "advanced": true,
-                "display_name": "Use Double Brackets",
-                "dynamic": false,
-                "info": "Use {{variable}} syntax instead of {variable}.",
-                "list": false,
-                "list_add_label": "Add More",
-                "name": "use_double_brackets",
-                "override_skip": false,
-                "placeholder": "",
-                "real_time_refresh": true,
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_metadata": true,
-                "track_in_telemetry": true,
-                "type": "bool",
-                "value": false
-              }
-            },
-            "tool_mode": false
-          },
-          "showNode": true,
-          "type": "Prompt Template"
-        },
-        "id": "Prompt Template-uzdr1",
-        "measured": {
-          "height": 347,
-          "width": 320
-        },
-        "position": {
-          "x": 465,
-          "y": 121
-        },
-        "selected": false,
-        "type": "genericNode"
-      },
-      {
-        "data": {
-          "id": "GroqModel-PiNcd",
+          "id": "GroqModel-lTprc",
           "node": {
             "base_classes": [
               "LanguageModel",
@@ -1081,9 +1047,8 @@
             ],
             "frozen": false,
             "icon": "Groq",
-            "last_updated": "2026-04-26T06:37:05.600Z",
+            "last_updated": "2026-04-28T15:35:44.463Z",
             "legacy": false,
-            "lf_version": "1.9.0",
             "metadata": {
               "code_hash": "8a55d3fa8173",
               "dependencies": {
@@ -1094,7 +1059,7 @@
                   },
                   {
                     "name": "lfx",
-                    "version": "0.4.1"
+                    "version": null
                   },
                   {
                     "name": "langchain_groq",
@@ -1109,7 +1074,7 @@
                 "language model",
                 "large language model"
               ],
-              "module": "custom_components.groq"
+              "module": "lfx.components.groq.groq.GroqModel"
             },
             "minimized": false,
             "output_types": [],
@@ -1152,7 +1117,7 @@
             "pinned": false,
             "template": {
               "_frontend_node_flow_id": {
-                "value": "2a90e634-d049-4b65-8426-564c94c297ab"
+                "value": "611deba4-bd95-4fab-a2a7-9d6ee3c4fd22"
               },
               "_frontend_node_folder_id": {
                 "value": "2d3365a5-05b7-4bff-9a86-b02fa6ed257f"
@@ -1277,18 +1242,17 @@
                 "dynamic": false,
                 "external_options": {},
                 "info": "The name of the model to use. Add your Groq API key to access additional available models.",
-                "load_from_db": false,
                 "name": "model_name",
                 "options": [
-                  "groq/compound",
-                  "llama-3.3-70b-versatile",
-                  "openai/gpt-oss-20b",
-                  "groq/compound-mini",
-                  "qwen/qwen3-32b",
                   "openai/gpt-oss-120b",
-                  "llama-3.1-8b-instant",
+                  "groq/compound",
+                  "meta-llama/llama-4-scout-17b-16e-instruct",
                   "allam-2-7b",
-                  "meta-llama/llama-4-scout-17b-16e-instruct"
+                  "qwen/qwen3-32b",
+                  "llama-3.3-70b-versatile",
+                  "groq/compound-mini",
+                  "llama-3.1-8b-instant",
+                  "openai/gpt-oss-20b"
                 ],
                 "options_metadata": [],
                 "override_skip": false,
@@ -1302,7 +1266,7 @@
                 "trace_as_metadata": true,
                 "track_in_telemetry": true,
                 "type": "str",
-                "value": "llama-3.3-70b-versatile"
+                "value": "llama-3.1-8b-instant"
               },
               "n": {
                 "_input_type": "IntInput",
@@ -1431,22 +1395,21 @@
           "showNode": true,
           "type": "GroqModel"
         },
-        "dragging": false,
-        "id": "GroqModel-PiNcd",
+        "id": "GroqModel-lTprc",
         "measured": {
           "height": 495,
           "width": 320
         },
         "position": {
-          "x": 876,
-          "y": 33
+          "x": 896,
+          "y": 264
         },
         "selected": false,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "TextOutput-i94aD",
+          "id": "TextOutput-0yvCH",
           "node": {
             "base_classes": [
               "Message"
@@ -1464,7 +1427,6 @@
             "frozen": false,
             "icon": "type",
             "legacy": false,
-            "lf_version": "1.9.0",
             "metadata": {
               "code_hash": "6aba888f4632",
               "dependencies": {
@@ -1552,31 +1514,31 @@
           "showNode": true,
           "type": "TextOutput"
         },
-        "id": "TextOutput-i94aD",
+        "id": "TextOutput-0yvCH",
         "measured": {
           "height": 207,
           "width": 320
         },
         "position": {
-          "x": 1323,
-          "y": 183
+          "x": 1312.5754875774026,
+          "y": 317.19779090812983
         },
-        "selected": false,
+        "selected": true,
         "type": "genericNode"
       }
     ],
     "viewport": {
-      "x": 14.007561436672972,
-      "y": 279.7164461247637,
-      "zoom": 0.6427221172022685
+      "x": 65.21476715214214,
+      "y": 24.51729196644419,
+      "zoom": 0.8874043770219124
     }
   },
-  "description": "Navigate the Linguistic Landscape, Discover Opportunities.",
+  "description": "Your Passport to Linguistic Landscapes.",
   "endpoint_name": null,
-  "id": "2a90e634-d049-4b65-8426-564c94c297ab",
+  "id": "611deba4-bd95-4fab-a2a7-9d6ee3c4fd22",
   "is_component": false,
   "last_tested_version": "1.9.0",
   "locked": false,
-  "name": "Stephen’s PDF Read and Extract Flow",
+  "name": "TestCaseReviewer",
   "tags": []
 }
